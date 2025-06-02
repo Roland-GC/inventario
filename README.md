@@ -26,7 +26,7 @@ Una aplicación móvil desarrollada en **Kotlin** para gestionar compras de prod
 
 1. **Clona el repositorio**
 
-  git clone https://github.com/TU_USUARIO/nombre-del-repo.git
+  git clone https://github.com/Roland-GC/inventario
 
     Ábrelo con Android Studio
 

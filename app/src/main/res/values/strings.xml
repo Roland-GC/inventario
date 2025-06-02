@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Akari</string>
+    <string name="product_info_template">Product: %1$s\nStock: %2$d\nPrice: %3$s</string>
+    <string name="product_name_template">Nombre del Producto: %1$s</string>
+    <string name="barcode_template">Código de barras: %1$s</string>
+    <string name="stock_template">Stock: %1$d</string>
+    <string name="price_template">Precio: %1$s</string>
+    <string name="change_template">Cambio: %1$.2f</string>
+    <string name="c_digo_de_barras">Código de Barras:</string>
+    <string name="stock">Stock:</string>
+    <string name="nombre_del_producto">Nombre del Producto:</string>
+    <string name="precio">Precio:</string>
+    <string name="cambio">Cambio:</string>
+    <string name="realizar_compra">Realizar Compra</string>
+    <string name="escanear">Escanear</string>
+    <string name="exportar_productos">Exportar Productos</string>
+    <string name="exportar_ventas">Exportar Ventas</string>
+    <string name="cantidad_a_vender">Cantidad a vender</string>
+    <string name="dinero">Dinero</string>
+    <string name="tarjeta">Tarjeta</string>
+
+</resources>

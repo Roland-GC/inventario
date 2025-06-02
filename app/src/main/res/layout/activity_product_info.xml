@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center_horizontal"
+    tools:context=".ProductInfoActivity">
+
+
+    <TextView
+        android:id="@+id/productNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_del_producto"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorMorado"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/barcodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c_digo_de_barras"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+
+        android:textColor="@color/colorMorado"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/stockTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/stock"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorMorado"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/precio"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorMorado"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/saleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/realizar_compra"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>

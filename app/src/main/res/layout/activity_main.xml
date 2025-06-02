@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escanear"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <Button
+        android:id="@+id/exportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exportar Productos"
+        android:layout_below="@id/scanButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/exportSalesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exportar Ventas"
+        android:layout_below="@id/exportButton"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/viewAllStockButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver todo el stock"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/exportSalesButton"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/viewAllSalesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Ventas"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/viewAllStockButton"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
